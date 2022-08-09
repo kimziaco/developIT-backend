@@ -36,7 +36,7 @@
 - JavaScript
 
 ## 3. ERD 설계
-![image](https://user-images.githubusercontent.com/88760828/183609378-0bb9cc1e-7542-4ff5-9b80-6f3e5b1035c0.png)
+![image](https://user-images.githubusercontent.com/88760828/183609453-3ce8f7cb-e02f-4748-8724-58742e80ebf3.png)
 
 
 ## 4. 아키텍처
