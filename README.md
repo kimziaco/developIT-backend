@@ -25,7 +25,7 @@
 ## 2. 사용 기술 
 <b>```Back-end```<b/>
 * Flask
-* bs4 <br/>
+* boto3 <br/>
 * requests <br/>
 * pymongo <br/>
 
