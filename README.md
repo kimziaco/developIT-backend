@@ -1,19 +1,7 @@
 # Devit(python)
 > 개발자 구인 구직 서비스 <br/>
 
-
 <br/>
-
-## 0. 총 코드 
-이다혜 담당 <br/>
-
-
-
-김지호 담당 <br/>
-
- 
-
-김대희 담당
 
 
 
@@ -36,10 +24,14 @@
 - Bootstrap
 - JavaScript
 
-## 3. ERD 설계
-(NOSQL로 설계)
+## 3. Data Model Design - Embedded Data Models
 
-![image](https://user-images.githubusercontent.com/88760828/183609679-cecbe17c-d06c-4cc3-92a4-f77ee0e69a5f.png)
+![image (2)](https://user-images.githubusercontent.com/88760828/186060695-0a689fcb-9f88-41c0-a1db-a609f8d44530.png)
+
+![스크린샷 2022-08-23 오전 11 37 37](https://user-images.githubusercontent.com/88760828/186060731-337dad08-6e46-4b74-85d0-497c859cd252.png)
+
+![스크린샷 2022-08-23 오전 11 37 55](https://user-images.githubusercontent.com/88760828/186060742-1f000113-c53f-4c07-b8bf-37e1f5bef518.png)
+
 
 
 ## 4. 아키텍처
@@ -51,4 +43,13 @@
 
 ## 5. 핵심 기능
 
+![devit(python)클래스다이어그램](https://user-images.githubusercontent.com/88760828/186060808-4c5e5674-d374-40ae-b400-4887edfab375.png)
+
+
 ## 6. 핵심 트러블 슈팅 
+
+1. EC2 ubuntu18 버전을 사용하여 python3.6으로 다운이 되면서 필요한 라이브러리가 설치되지 않는 문제
+버전이 낮아 python 버전이 3.6으로 다운되는 문제 
+(프로젝트 내 버전 3.8 로 패키지들의 설치 ~~)
+
+2. EC2 내에서 환경변수를 어떻게 지정할까? 라는 의문으로 시작되어 config 파일을 통한 환경 분리
